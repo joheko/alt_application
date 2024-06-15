@@ -1,16 +1,41 @@
 # alt_application
 
-A new Flutter project.
+## Käyttö
 
-## Getting Started
+Sovelluksessa voit syöttää uuden altistumisen päivämäärän, keston (tunnit ja minuutit) ja muistiinpanot. Voit myös muokata ja poistaa aiempia altistumisia. Sovellus näyttää kertyneen altistumisajan kuluvalta vuodelta.
 
-This project is a starting point for a Flutter application.
+### Uuden altistumisen lisääminen
 
-A few resources to get you started if this is your first Flutter project:
+1. Syötä päivämäärä, tunnit, minuutit ja muistiinpanot.
+2. Paina `Tallenna`-painiketta.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Altistumisen muokkaaminen
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Paina muokattavan altistumisen vieressä olevaa kynäkuvaketta.
+2. Tee haluamasi muutokset ja paina `Tallenna`.
+
+### Altistumisen poistaminen
+
+1. Paina poistettavan altistumisen vieressä olevaa roskakorikuvaketta.
+
+## Ominaisuudet
+
+- Lisää uusi altistuminen päivämäärällä, kestolla ja muistiinpanoilla.
+- Muokkaa ja poista olemassa olevia altistumisia.
+- Näe kertyneen altistumisajan kuluvalta vuodelta.
+
+## Teknologia
+
+- [Flutter](https://flutter.dev/)
+- [Dart](https://dart.dev/)
+- [sqflite_common_ffi](https://pub.dev/packages/sqflite_common_ffi) (SQLite tietokanta)
+
+## Lisenssi
+
+Tämä projekti on lisensoitu MIT-lisenssillä. Katso lisätiedot [LICENSE](LICENSE) -tiedostosta.
+
+## Yhteystiedot
+
+- Tekijä: Joel Korkala
+- Sähköposti: joel.korkala@gmail.com
+- GitHub: [joheko](https://github.com/joheko)
